@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo11.png" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#sp-section">Special Food</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p><b> Online Ordering System</b>
+         </p>
+        <p><b><i> Nothing brings people together like good food</b></i> </p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">A good place to start planning for an event is to understand the different types of catering options available to you. The reason being that each type has a different type of planning, pricing, and ordering procedure.<br>
+                1)Corporate Catering <br>
+                2)Wedding Catering<br>
+                3)Social Event Catering<br>
+                4)Concession Catering<br>
+            </p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Now Order your favorite Tasty Food From TCK's extensive multicuisine menu by the kilo. Same Taste, Same Quality at Discounted Rates.
+                     Birthday Party?
+                      Calling guests over? 
+                      Celebrating your Anniversary? 
+                      Special Occasion?
+                       Be at ease. Simply place the order and Relax. It will reach you on time, conveniently packed. Its just like having a personal chef without all the extra fuss, cost and mess</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Allows your business to accept and manage orders placed online for delivery or takeaway. Customers browse a digital menu, either on an app or website and place and pay for their order online.</p>
+            </div>
+        </div>
+    </section>
+    <section id="sp-section">
+        <h1 class="h-primary center">Specials Food</h1>
+        <div id="sps">
+            <div class="sp-item">
+                <img src="img/logo1.webp" alt="Specials Food">
+                <div class="text">Paneer Tikka</div>
+            </div>
+            <div class="sp-item">
+                <img src="img/logo2.webp" alt="Specials Food">
+                <div class="text">Chole Bhatore</div>
+            </div>
+          
+            <div class="sp-item">
+                <img src="img/logo3.jpeg" alt="Specials Food">
+                <div class="text">Burger Buns</div>
+            </div>
+            <div class="sp-item">
+                <img src="img/logo4.jpeg" alt="Specials Food">
+                <div class="text">PanCake</div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="" id="myform">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn" onclick="clickHandler()"> Submit</button>
+              
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!<br>
+            <button class="fbtn"><a href="#home">Go to top</a></button>
+        </div>
+    </footer>
+
+    <script>
+        function clickHandler() {
+            // let name=document.getElementById('name').innerText;
+          alert("Form submitted successfully");
+          document.getElementById("myform").reset();
+        }
+        </script>
+
+</body>
+
+</html>
